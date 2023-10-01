@@ -1,12 +1,12 @@
 build:
   gpu: true
-  python_version: "3.8"
+  python_version: "3.10"
   system_packages:
     - "libgl1-mesa-glx"
     - "libglib2.0-0"
   python_packages:
     - "git+https://github.com/openai/CLIP.git"
-    - "git+https://github.com/YoadTew/zero-shot-image-to-text.git"
+    - "git+https://github.com/Sakib4724/ITTG1"
 
 predict: "predict.py:Predictor"
 #predict: "predict_arithmetic.py:Predictor"
